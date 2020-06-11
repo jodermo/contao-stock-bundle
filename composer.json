@@ -1,0 +1,23 @@
+{
+    "name": "petzka/contao-stock-bundle",
+    "description": "petzka/contao-stock-bundle",
+    "type": "contao-bundle",
+    "require": {
+        "contao/core-bundle": "^4.9"
+    },
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Moritz Petzka",
+            "email": "info@petzka.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Petzka\\ContaoStockBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Petzka\\ContaoStockBundle\\ContaoManager\\Plugin"
+    }
+}
