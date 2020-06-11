@@ -2,18 +2,9 @@
 ##### This is a basic Contao Bundle for building custom bundles from scratch
 extension for contao/core-bundle (version ^4.9)
 
-## Search & Replace
-[Download](https://github.com/jodermo/contao-stock-bundle/archive/master.zip) and extract or clone project <br> 
-`git clone https://github.com/jodermo/contao-stock-bundle.git` <br>
-search and replace following namespaces in all files and file names
-
-| search for          | replace with     |
-| ------------------- |:----------------:|
-| Petzka              | Vendorname       |
-| ContaoStock         | BundleName       |
-| petzka              | vendorname       |
-| contao-stock-bundle | bundle-name      |
-
+Contao website:[https://contao.org](https://contao.org) <br>
+Official Contao Documentation: [https://docs.contao.org](https://docs.contao.org) <br><br>
+How to work with Contao 4 and Troubleshooting: [jodermo.github.io/contao-4-documentation](https://jodermo.github.io/contao-4-documentation/)
 
 
 <br>
@@ -65,7 +56,22 @@ add code to \<contao root path\>/composer.json
 ```
 <br>
 
-#### How to work with Contao 4 and Troubleshooting: <br> [jodermo.github.io/contao-4-documentation](https://jodermo.github.io/contao-4-documentation/)
+## Create Custom Bundle
+
+[Download](https://github.com/jodermo/contao-stock-bundle/archive/master.zip) and extract or clone this repository <br>
+search and replace following namespaces in all files and file names
+
+| search for          | replace with     |
+| ------------------- |:----------------:|
+| Moritz Petzka       | Your Name        |
+| info@petzka.com     | your email       |
+| Petzka              | Vendorname       |
+| ContaoStock         | BundleName       |
+| petzka              | vendorname       |
+| contao-stock-bundle | bundle-name      |
+
+
+
 
 
 
