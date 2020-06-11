@@ -1,5 +1,22 @@
 # Contao 4 - Stock Bundle
-##### This is a basic Contao Bundle
+##### This is a basic Contao Bundle for building custom bundles from scratch
+extension for contao/core-bundle (version ^4.9)
+
+## Search & Replace
+[Download](https://github.com/jodermo/contao-stock-bundle/archive/master.zip) and extract or clone project <br> 
+`git clone https://github.com/jodermo/contao-stock-bundle.git` <br>
+search and replace following namespaces in all files and file names
+
+| search for          | replace with     |
+| ------------------- |:----------------:|
+| Petzka              | Vendorname       |
+| ContaoStock         | BundleName       |
+| petzka              | vendorname       |
+| contao-stock-bundle | bundle-name      |
+
+
+
+<br>
 
 ## Add bundle as Git-Repository<br>
 add code to \<contao root path\>/composer.json
@@ -23,7 +40,7 @@ add code to \<contao root path\>/composer.json
 }
 ```
 
-## Add bundle as local repository<br>
+## Add bundle as local repository <br>
 add code to \<contao root path\>/composer.json
 ```json
 {
